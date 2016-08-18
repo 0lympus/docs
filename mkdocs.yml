@@ -1,5 +1,5 @@
 site_name: Olympus Docs
-theme: readthedocs
+theme: material
 pages:
 - Home: 'index.md'
 - Developer: 
