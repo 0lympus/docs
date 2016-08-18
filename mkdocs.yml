@@ -1,5 +1,17 @@
-site_name: Olympus Docs
+site_name: Olympus
+site_description: 'Olympus Application Development Platform'
+site_author: 'Blue Nickel Solutions'
+site_url: 'https://www.bluenickel.co.za'
+
 theme: material
+
+# Repository
+repo_name: '0lympus'
+repo_url: 'https://github.com/0lympus'
+
+# Copyright
+copyright: 'Copyright (c) 2016 Blue Nickel Solutions'
+
 pages:
 - Home: 'index.md'
 - Developer: 
@@ -8,3 +20,14 @@ pages:
         - 'Client Modules': 'developer/modules/client-modules/get-started.md'
         - 'Service Modules': 'developer/modules/service-modules/get-started.md'
     - Tools: 'developer/tools/get-started.md'
+
+# Options
+extra:
+    version: '0.1.0'
+    logo: 'images/olympus-logo.png'
+    palette:
+        primary: 'indigo'
+        accent: 'light blue'
+    author: 
+        github: '0lympus'
+        web: 'httpL//www.bluenickel.co.za'
